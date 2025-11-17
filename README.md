@@ -1,2 +1,16 @@
-# exment-InformationViewTracker
-Exmetのお知らせで閲覧者,非閲覧者を追跡する(回覧版みたいな？)
+サンプルプラグインです（AI生成多用してるので修正してね）
+# InformationViewTracker - お知らせ閲覧追跡プラグイン
+Exmentのお知らせテーブル(information)の投稿を誰が見て誰が見ていないかを追跡するプラグインです。<br/>
+*ページビュー*
+<img width="1669" height="676" alt="ss1" src="https://github.com/user-attachments/assets/8e74264b-a83a-49ff-9281-01032001bd72" />
+*独自ビュー*
+<img width="1656" height="480" alt="ss2" src="https://github.com/user-attachments/assets/f67f7dbd-acc9-4f7a-9a33-2112941bb16e" />
+
+## 機能
+
+- **自動閲覧追跡**: お知らせの詳細画面を開くと自動的に閲覧記録が保存されます
+- **既読/未読表示**: カスタムビューでお知らせの既読/未読状態を確認できます
+- **閲覧統計**: ページビューで閲覧統計情報（総数、既読数、未読数、閲覧率など）を表示します
+- **閲覧履歴**: 最近閲覧したお知らせの一覧を表示します
+- **未閲覧ユーザー集計**: お知らせごとに誰が見ていないかを一覧表示
+- **CSVエクスポート**: 未閲覧ユーザーの情報をCSVファイルでダウンロード可能
