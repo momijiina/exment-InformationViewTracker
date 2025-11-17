@@ -1,0 +1,28 @@
+{
+    "plugin_name": "InformationViewTracker",
+    "uuid": "a1b2c3d4-5678-90ab-cdef-1234567890ab",
+    "plugin_view_name": "お知らせ閲覧追跡",
+    "description": "お知らせテーブルの投稿を誰が見て誰が見ていないかを追跡するプラグインです。",
+    "author": "momijiina",
+    "version": "1.0.0",
+    "plugin_type": "event,view,dashboard,page",
+    "event_triggers": "loading",
+    "target_tables": "information",
+    "route": [
+        {
+            "uri": "",
+            "method": ["get"],
+            "function": "index"
+        },
+        {
+            "uri": "unread",
+            "method": ["get"],
+            "function": "unread"
+        },
+        {
+            "uri": "export",
+            "method": ["get"],
+            "function": "export"
+        }
+    ]
+}
